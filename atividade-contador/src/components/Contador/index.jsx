@@ -41,6 +41,12 @@ export default function Contador(){
             <button className='btn-decrementar' onClick={decrementar} > - {passo} </button>
             <button className='btn-resetar' onClick={resetar}>Resetar</button>
             <button className='btn-incrementar' onClick={incrementar}> + {passo}  </button>
+
+            
+            </div>
+            <div className= 'explicacao - box'>
+                <code>const [contador, setContador] = useState(0);</code>
+                <p>O estado armazena um valor numerico que é renderizado a cada alteração no componente.</p>
             </div>
         </div>
     );
